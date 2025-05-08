@@ -2,7 +2,7 @@ const { test, expect } = require('@playwright/test');
 
 test('home page of Demoblaze', async ({ page }) => {
   // Visit Demoblaze
-  await page.goto('https://portfolio-eight-ashy-54.vercel.app/');
+  await page.goto('https://portfolio-eight-ashy-54.vercel.app/'); //ok
 
   // Wait and get the title
   const pageTitle = await page.title();
